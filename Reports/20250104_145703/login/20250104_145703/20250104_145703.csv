@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login,Chrome 131.0.0.0,,,04-01-2025 14:57:13,04-01-2025 14:57:46,33.354s,PASSED
+,,,,,,,
+Test Cases/register open url,Chrome 131.0.0.0,,,04-01-2025 14:57:14,04-01-2025 14:57:26,12.698s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,04-01-2025 14:57:14,04-01-2025 14:57:21,6.564s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,04-01-2025 14:57:21,04-01-2025 14:57:22,0.782s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,04-01-2025 14:57:22,04-01-2025 14:57:24,2.787s,PASSED
+navigateToUrl(UrlLink),Chrome 131.0.0.0,,,04-01-2025 14:57:24,04-01-2025 14:57:26,1.864s,PASSED
+,,,,,,,
+Test Cases/register fullname without name password email,Chrome 131.0.0.0,,,04-01-2025 14:57:26,04-01-2025 14:57:34,7.289s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,04-01-2025 14:57:27,04-01-2025 14:57:30,3.278s,PASSED
+navigateToUrl(UrlLink),Chrome 131.0.0.0,,,04-01-2025 14:57:30,04-01-2025 14:57:31,0.799s,PASSED
+"setText(findTestObject(""Object Repository/Page_Register Participant/input_Ap_name""), ""hello"")",Chrome 131.0.0.0,,,04-01-2025 14:57:31,04-01-2025 14:57:32,1.116s,PASSED
+"click(findTestObject(""Object Repository/Page_Register Participant/button_Register""))",Chrome 131.0.0.0,,,04-01-2025 14:57:32,04-01-2025 14:57:34,1.341s,PASSED
+,,,,,,,
+Test Cases/register fullname only,Chrome 131.0.0.0,,,04-01-2025 14:57:34,04-01-2025 14:57:39,5.064s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,04-01-2025 14:57:34,04-01-2025 14:57:36,2.336s,PASSED
+navigateToUrl(UrlLink),Chrome 131.0.0.0,,,04-01-2025 14:57:36,04-01-2025 14:57:37,0.637s,PASSED
+"setText(findTestObject(""Object Repository/Page_Register Participant/input_Ap_name""), ""hello"")",Chrome 131.0.0.0,,,04-01-2025 14:57:37,04-01-2025 14:57:38,0.896s,PASSED
+"click(findTestObject(""Object Repository/Page_Register Participant/button_Register""))",Chrome 131.0.0.0,,,04-01-2025 14:57:38,04-01-2025 14:57:39,1.141s,PASSED
+,,,,,,,
+Test Cases/register email only,Chrome 131.0.0.0,,,04-01-2025 14:57:39,04-01-2025 14:57:46,7.730s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,04-01-2025 14:57:39,04-01-2025 14:57:42,3.248s,PASSED
+navigateToUrl(UrlLink),Chrome 131.0.0.0,,,04-01-2025 14:57:42,04-01-2025 14:57:43,0.675s,PASSED
+"setText(findTestObject(""Object Repository/Page_Register Participant/input_Ap_name""), ""hello"")",Chrome 131.0.0.0,,,04-01-2025 14:57:43,04-01-2025 14:57:44,0.946s,PASSED
+"setText(findTestObject(""Object Repository/Page_Register Participant/input_Ap_email""), ""hello@mail.com"")",Chrome 131.0.0.0,,,04-01-2025 14:57:44,04-01-2025 14:57:45,0.812s,PASSED
+"click(findTestObject(""Object Repository/Page_Register Participant/button_Register""))",Chrome 131.0.0.0,,,04-01-2025 14:57:45,04-01-2025 14:57:46,1.296s,PASSED
+"click(findTestObject(""Object Repository/Page_Register Participant/input_Ap_name""))",Chrome 131.0.0.0,,,04-01-2025 14:57:46,04-01-2025 14:57:46,0.527s,PASSED

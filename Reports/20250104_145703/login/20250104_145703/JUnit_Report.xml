@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login" time="33.354" tests="4" failures="0" errors="0">
+   <testsuite name="login" tests="4" failures="0" errors="0" time="33.354" skipped="0" timestamp="04-01-2025T14:57:13" hostname="USER - DESKTOP-NPS2V6N" id="Test Suites/login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\qa_automation\\Reports\\20250104_145703\\login\\20250104_145703"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\qa_automation\\Reports\\20250104_145703\\login\\20250104_145703\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-NPS2V6N"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.88"/>
+         <property name="sessionId" value="3fb84e2352be460a99e83ea211825aa7"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/register open url" time="12.698" classname="Test Cases/register open url" status="PASSED">
+         <system-out><![CDATA[04-01-2025T14:57:14 - [TEST_CASE][PASSED] - Test Cases/register open url: Test Cases/register open url
+
+04-01-2025T14:57:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-01-2025T14:57:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-01-2025T14:57:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-01-2025T14:57:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-01-2025T14:57:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-01-2025T14:57:22 - [MESSAGE][PASSED] - Browser is closed
+
+04-01-2025T14:57:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-01-2025T14:57:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-01-2025T14:57:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-01-2025T14:57:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-01-2025T14:57:24 - [TEST_STEP][PASSED] - navigateToUrl(UrlLink): Navigate to 'http://192.168.1.88:8000/participant/register' successfully
+
+04-01-2025T14:57:26 - [MESSAGE][PASSED] - Navigate to 'http://192.168.1.88:8000/participant/register' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/register fullname without name password email" time="7.289" classname="Test Cases/register fullname without name password email" status="PASSED">
+         <system-out><![CDATA[04-01-2025T14:57:26 - [TEST_CASE][PASSED] - Test Cases/register fullname without name password email: Test Cases/register fullname without name password email
+
+04-01-2025T14:57:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-01-2025T14:57:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+04-01-2025T14:57:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-01-2025T14:57:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-01-2025T14:57:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-01-2025T14:57:30 - [TEST_STEP][PASSED] - navigateToUrl(UrlLink): Navigate to 'http://192.168.1.88:8000/participant/register' successfully
+
+04-01-2025T14:57:31 - [MESSAGE][PASSED] - Navigate to 'http://192.168.1.88:8000/participant/register' successfully
+
+04-01-2025T14:57:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Register Participant/input_Ap_name"), "hello"): Text 'hello' is set on object 'Object Repository/Page_Register Participant/input_Ap_name'
+
+04-01-2025T14:57:32 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_Register Participant/input_Ap_name'
+
+04-01-2025T14:57:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Register Participant/button_Register")): Object: 'Object Repository/Page_Register Participant/button_Register' is clicked on
+
+04-01-2025T14:57:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Register Participant/button_Register' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/register fullname only" time="5.064" classname="Test Cases/register fullname only" status="PASSED">
+         <system-out><![CDATA[04-01-2025T14:57:34 - [TEST_CASE][PASSED] - Test Cases/register fullname only: Test Cases/register fullname only
+
+04-01-2025T14:57:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-01-2025T14:57:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+04-01-2025T14:57:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-01-2025T14:57:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-01-2025T14:57:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-01-2025T14:57:36 - [TEST_STEP][PASSED] - navigateToUrl(UrlLink): Navigate to 'http://192.168.1.88:8000/participant/register' successfully
+
+04-01-2025T14:57:37 - [MESSAGE][PASSED] - Navigate to 'http://192.168.1.88:8000/participant/register' successfully
+
+04-01-2025T14:57:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Register Participant/input_Ap_name"), "hello"): Text 'hello' is set on object 'Object Repository/Page_Register Participant/input_Ap_name'
+
+04-01-2025T14:57:38 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_Register Participant/input_Ap_name'
+
+04-01-2025T14:57:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Register Participant/button_Register")): Object: 'Object Repository/Page_Register Participant/button_Register' is clicked on
+
+04-01-2025T14:57:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Register Participant/button_Register' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/register email only" time="7.73" classname="Test Cases/register email only" status="PASSED">
+         <system-out><![CDATA[04-01-2025T14:57:39 - [TEST_CASE][PASSED] - Test Cases/register email only: Test Cases/register email only
+
+04-01-2025T14:57:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-01-2025T14:57:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+04-01-2025T14:57:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-01-2025T14:57:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-01-2025T14:57:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-01-2025T14:57:42 - [TEST_STEP][PASSED] - navigateToUrl(UrlLink): Navigate to 'http://192.168.1.88:8000/participant/register' successfully
+
+04-01-2025T14:57:43 - [MESSAGE][PASSED] - Navigate to 'http://192.168.1.88:8000/participant/register' successfully
+
+04-01-2025T14:57:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Register Participant/input_Ap_name"), "hello"): Text 'hello' is set on object 'Object Repository/Page_Register Participant/input_Ap_name'
+
+04-01-2025T14:57:44 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_Register Participant/input_Ap_name'
+
+04-01-2025T14:57:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Register Participant/input_Ap_email"), "hello@mail.com"): Text 'hello@mail.com' is set on object 'Object Repository/Page_Register Participant/input_Ap_email'
+
+04-01-2025T14:57:45 - [MESSAGE][PASSED] - Text 'hello@mail.com' is set on object 'Object Repository/Page_Register Participant/input_Ap_email'
+
+04-01-2025T14:57:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Register Participant/button_Register")): Object: 'Object Repository/Page_Register Participant/button_Register' is clicked on
+
+04-01-2025T14:57:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Register Participant/button_Register' is clicked on
+
+04-01-2025T14:57:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Register Participant/input_Ap_name")): Object: 'Object Repository/Page_Register Participant/input_Ap_name' is clicked on
+
+04-01-2025T14:57:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Register Participant/input_Ap_name' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-01-2025T14:57:13 - [TEST_SUITE][PASSED] - login: Test Cases/register email only]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>register fullname only</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aada662e-aa7b-41a7-96d0-5b0ceb6f1ecd</testCaseGuid>
+</TestCaseEntity>
